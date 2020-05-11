@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="visual.css">
+	<title>
+		Cadastro
+	</title>
+
+</head>
+<body>
+	<div class="cabecalho">
+		<img src="logo.png" class="logo" alt="some text" width=115 height=115>
+		<h1 class="cabecalho-titulo">Cadastro de campeões jogados</h1>
+	</div>
+
+	<form>
+		<h2 class="form-header">Formulário</h2>
+
+		<label for="nome">Campeão</label>
+		<input type="text" name="nome" id="nome">
+
+		<label for="lane">Lane</label>
+		<select id="lane">
+			<option>Selecione</option>
+			<option value="top">Top</option>
+			<option value="jungle">Jungle</option>
+			<option value="mid">Mid</option>
+			<option value="ad-carry">Ad Carry</option>
+			<option value="support">Suporte</option>
+		</select>
+
+		<span>Runas</span>
+
+		<div class="runas">
+			<div>
+				<label for="ruans-primarias">Primarias</label>
+				<select id="ruans-primarias">
+					<option>Selecione</option>
+					<option>Precisão</option>
+					<option>Dominação</option>
+					<option>Feitiçaria</option>
+					<option>Determinação</option>
+					<option>Inspiração</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="ruans-secundarias">Secundarias</label>
+				<select id="ruans-secundarias">
+					<option>Selecione</option>
+					<option>Precisão</option>
+					<option>Dominação</option>
+					<option>Feitiçaria</option>
+					<option>Determinação</option>
+					<option>Inspiração</option>
+				</select>
+			</div>
+		</div>
+
+
+		<button>Corfirmar</button>
+
+
+	</form>
+
+
+
+</body>
+</html>

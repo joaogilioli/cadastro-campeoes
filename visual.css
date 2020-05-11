@@ -1,0 +1,99 @@
+*{
+	 font-family: cursive;
+}
+
+.cabecalho {
+	background: #0091EA;
+	padding: 20px;
+	display: table;
+	width: 100%;
+
+}
+
+.cabecalho-titulo {
+	color : #ffffff;
+	margin: 0px;
+	font-size: 50px;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+
+.logo {
+	display: table-cell;
+	margin-right: 0px;
+}
+
+body {
+	margin: 0px;
+	background-color: #eee;
+}
+
+form {
+	margin: 30px;
+	padding: 15px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px #ccc;
+	background-color: #ffffff;
+}
+
+.form-header {
+	margin-top: 0;
+	color: #2f2f2f;
+}
+
+form label,
+form span {
+	font-size: 18px;
+}
+
+form select {
+	width: 319px !important;
+}
+
+form input,
+form select {
+	border-radius: 5px;
+	border: 1px solid #6b6b6e; 
+	width: 300px;
+	padding: 7px;
+	margin-top: 5px !important;
+}
+
+form input, 
+form label,
+form select,
+form span { 
+	display: block;
+	margin-top: 15px;
+
+}
+
+.runas div {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.runas label {
+	font-size: 16px;
+	margin-top: 5px !important;
+}
+
+.runas select {
+	width: 149px !important;
+}
+
+button {
+	margin-top: 45px;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	color: #ffffff;
+	background: #0288D1;
+	font-size: 17px;
+
+}
+
+button:hover{
+	background: #0277BD
+}
